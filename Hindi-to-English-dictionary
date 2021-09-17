@@ -1,0 +1,18 @@
+myDict = {
+"pankha": "fan",
+"gadi": "vehicle",
+"kutta": "dog",
+"darwaza": "door",
+"khidki": "window",
+"sher": "lion",
+"garam": "hot",
+"dil": "heart",
+"haath": "arm",
+"dukaan": "store",
+"sardee": "winter",
+"marana": "die",
+"kharaab": "bad",
+}
+print("Options are ", myDict.keys())
+a = input("ENTER THE HINDI WORD: \n")
+print("The meanig of your word is:", myDict.get(a))
